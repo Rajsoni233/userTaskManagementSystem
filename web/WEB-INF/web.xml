@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>UserRegister</servlet-name>
+        <servlet-class>controller.UserRegister</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserRegister</servlet-name>
+        <url-pattern>/UserRegister</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>UserLogin</servlet-name>
+        <servlet-class>controller.UserLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogin</servlet-name>
+        <url-pattern>/UserLogin</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+     <servlet>
+        <servlet-name>UserHome</servlet-name>
+        <servlet-class>controller.UserHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserHome</servlet-name>
+        <url-pattern>/UserHome</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>ViewUsersServlet</servlet-name>
+    <servlet-class>controller.ViewUsersServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ViewUsersServlet</servlet-name>
+    <url-pattern>/ViewUsersServlet</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>ApproveUser</servlet-name>
+    <servlet-class>controller.ApproveUser</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ApproveUser</servlet-name>
+    <url-pattern>/ApproveUser</url-pattern>
+</servlet-mapping>
+
+
+    
+    
+     <servlet>
+        <servlet-name>BlockUserServlet</servlet-name>
+        <servlet-class>controller.BlockUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlockUserServlet</servlet-name>
+        <url-pattern>/BlockUserServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>UserLogout</servlet-name>
+        <servlet-class>controller.UserLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserLogout</servlet-name>
+        <url-pattern>/UserLogout</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>controller.AdminLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+     <servlet>
+        <servlet-name>AdminLogout</servlet-name>
+        <servlet-class>controller.AdminLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogout</servlet-name>
+        <url-pattern>/AdminLogout</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AdminHome</servlet-name>
+        <servlet-class>controller.AdminHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminHome</servlet-name>
+        <url-pattern>/AdminHome</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    
+    
+     <servlet>
+        <servlet-name>DeleteTask</servlet-name>
+        <servlet-class>controller.DeleteTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTask</servlet-name>
+        <url-pattern>/DeleteTask</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>RetriveTask</servlet-name>
+        <servlet-class>controller.RetriveTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RetriveTask</servlet-name>
+        <url-pattern>/RetriveTask</url-pattern>
+    </servlet-mapping>
+    
+    
+     
+    <servlet>
+        <servlet-name>UpdateTask</servlet-name>
+        <servlet-class>controller.UpdateTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateTask</servlet-name>
+        <url-pattern>/UpdateTask</url-pattern>
+    </servlet-mapping>
+    
+   
+       <servlet>
+        <servlet-name>UserTasks</servlet-name>
+        <servlet-class>controller.UserTasks</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserTasks</servlet-name>
+        <url-pattern>/UserTasks</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>AddTask</servlet-name>
+        <servlet-class>controller.AddTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTask</servlet-name>
+        <url-pattern>/AddTask</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>ViewUserTask</servlet-name>
+        <servlet-class>controller.ViewUserTask</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewUserTask</servlet-name>
+        <url-pattern>/ViewUserTask</url-pattern>
+    </servlet-mapping>
+    
+    
+     
+   
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    
+</web-app>

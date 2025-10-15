@@ -1,0 +1,151 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/public/style.css">
+
+        <style>
+    body {
+        font-family: "Segoe UI", Candara, sans-serif;
+        padding: 30px;
+        margin: 0;
+        background: linear-gradient(to right, #f4f7fb, #e9eff5);
+        color: #333;
+    }
+
+    /* Navigation Bar */
+    #nav {
+        height: 60px;
+        background-color: navy;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        border-radius: 8px;
+    }
+
+    #nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #nav ul li {
+        margin: 0 20px;
+    }
+
+    #nav ul li a {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        padding: 8px 14px;
+        border-radius: 6px;
+        transition: all 0.3s ease;
+                margin-bottom: 10px;
+
+    }
+
+    #nav ul li a:hover {
+        background-color: #1e90ff;
+        color: #fff;
+        transform: scale(1.05);
+    }
+
+    /* Page Title */
+    h1 {
+        text-align: center;
+        color: navy;
+        margin-top: 20px;
+        font-size: 32px;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* Paragraphs */
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+        color: #444;
+    }
+
+    /* Buttons */
+    button, input[type="submit"], input[type="reset"] {
+        background: navy;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+        background: #1e90ff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Inputs */
+    input[type="text"], input[type="email"], input[type="password"] {
+        width: 280px;
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+        transition: border 0.3s;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+        border-color: #1e90ff;
+        outline: none;
+        box-shadow: 0 0 5px rgba(30,144,255,0.4);
+    }
+
+    /* Links */
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        color: navy;
+        margin-top: 10px;
+        display: inline-block;
+        transition: color 0.3s;
+    }
+
+    a:hover {
+        color: #1e90ff;
+    }
+
+   
+</style>
+
+    </head>
+    <body>
+        <h1>User Task Management System</h1>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="userLogin.html">UserLogin</a></li>
+                <li><a href="userRegister.html">UserRegister</a></li>
+            </ul>
+        </div>
+        <h1>About Page</h1>
+        <p>
+         The User Task Management System is a web-based application developed using Servlets that provides a simple and secure platform for managing users and their tasks. It consists of two modules: Admin and User, each with specific roles and functionalities.
+         <br> <br>
+In the Admin module, the administrator can log in securely and manage users by approving newly registered accounts or blocking inactive or suspicious ones. The admin also has the ability to view tasks created by different users, ensuring better monitoring and control. This module ensures that only authorized and verified users are allowed to access the system.
+<br> <br>
+In the User module, individuals can register themselves on the portal. However, their access becomes active only after approval by the admin. Once logged in, users can add new tasks, update existing tasks, delete completed tasks, and retrieve their to-do list at any time. This provides a personal task management environment that is easy to use and effective in organizing daily activities.
+<br> <br>
+The system is designed with simplicity and clarity, using HTML forms for input and Servlets for business logic. Overall, this project demonstrates concepts of user authentication, session handling, and CRUD operations in a real-world application scenario.
+        </p>
+    </body>
+</html>
